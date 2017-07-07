@@ -3,7 +3,7 @@
 ?>
 <html>
 <body>
-	<form action="/web1/member/index.php?action=editInfo&id=<?php print $this->m->getId(); ?>" method="post" name="f">
+	<form action="/db_member/index.php?action=editInfo&id=<?php print $this->m->getId(); ?>" method="post" name="f">
 		<table border="0" cellspacing="2">
 			<caption>
 				<h3>회원 정보 수정</h3>
