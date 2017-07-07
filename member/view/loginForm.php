@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' && $this->action=='login'){
  id:<input type="text" name="id"><br>
 pwd:<input type="text" name="pwd"><br>
                 <input type="submit" value="login"><br>
-                <a href="/web1/member/index.php?action=joinForm">회원가입</a>
+                <a href="/db_member/index.php?action=joinForm">회원가입</a>
 </pre>
 </form>
 </body>
