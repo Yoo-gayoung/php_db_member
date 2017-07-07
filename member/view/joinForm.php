@@ -27,7 +27,7 @@ function a(){
 </head>
 <body>
 <h3>              회원가입</h3>
-<form action="/web1/member/index.php?action=join" method="post" name="f">
+<form action="/db_member/index.php?action=join" method="post" name="f">
 <pre>
    id(필수):<input type="text" name="id"><br>
   pwd(필수):<input type="text" name="pwd"><br>
