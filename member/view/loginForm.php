@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' && $this->action=='login'){
 <body>
 
 <h3>로그인</h3>
-<form action="/web1/member/index.php?action=login" method="post">
+<form action="/db_member/index.php?action=login" method="post">
 <pre>
  id:<input type="text" name="id"><br>
 pwd:<input type="text" name="pwd"><br>
